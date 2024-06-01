@@ -5,12 +5,12 @@ import img2 from '../assets/image2.png';
 import img3 from '../assets/image3.png';
 import img4 from '../assets/image4.png';
 import { IoMdCheckmark } from "react-icons/io";
-import { CiBookmark } from "react-icons/ci";
-import { CiStar } from "react-icons/ci";
 import Form from "./Form";
 import Apply from "./Apply";
 import Certificate from './Certificate';
 import Apply2 from './Apply2';
+import { IoStar } from "react-icons/io5";
+import { FaBookmark } from "react-icons/fa";
 
 const MakeupCourse = () => {
   return (
@@ -22,9 +22,9 @@ const MakeupCourse = () => {
         <img src={img3} alt="Image 3" className="w-1/2 h-full object-cover" />
         <img src={img4} alt="Image 4" className="absolute right-[-25%] w-[50%] h-full object-cover" />
         {/* Overlay for logo and text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 p-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-80 p-4">
           <div className="logo mb-4 flex flex-col items-center">
-            <img src="" alt="Airblack" className="w-12 mx-auto" />
+            <img src="" alt="logo" className="w-12 mx-auto" />
             <p className="presents">PRESENTS</p>
           </div>
         </div>
@@ -34,8 +34,8 @@ const MakeupCourse = () => {
         <div className='prof'>
           <div className="prof1">Professional Online <br /> Makeup Course</div>
           <div className="prof2 ">
-            <span className="prof3"> <CiBookmark className='mark text-white' />Certification Programme</span>
-            <div className='flex items-center'><CiStar className='star text-yellow-500' /><span className='prof4'>Rated 4.85/5</span></div>
+            <span className="prof3"> <FaBookmark className='mark text-white' />Certification Programme</span>
+            <div className='flex items-center'><IoStar className='star' /><span className='prof4'>Rated 4.85/5</span></div>
             
           </div>
           <div className="prof5">

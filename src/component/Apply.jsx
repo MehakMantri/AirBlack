@@ -23,19 +23,19 @@ const Apply = () => {
         <img src={img3} alt="Image 3" className="w-1/2 h-full object-cover" />
         <img src={img4} alt="Image 4" className="absolute right-[-25%] w-[50%] h-full object-cover" />
         {/* Overlay for logo and text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 p-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-80 p-4">
           <div className="logo mb-4 flex flex-col items-center">            <div className="apply-text">Why Should You 
 Join Airblack?</div>
           </div>
         </div>
       </div>
-      <div className="relative flex h-[125px] overflow-hidden">
+      <div className="relative flex h-[125px] overflow-hidden ">
         <img src={img5} alt="Image 5" className="absolute left-[-25%] w-[50%] h-full object-cover" />
         <img src={img6} alt="Image 6" className="w-1/2 h-full object-cover" />
         <img src={img7} alt="Image 7" className="w-1/2 h-full object-cover" />
         <img src={img8} alt="Image 8" className="absolute right-[-25%] w-[50%] h-full object-cover" />
         {/* Overlay for logo and text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 p-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-80 p-4">
           <div className="logo mb-4 flex flex-col items-center">
             <div className="features flex">
               <div className="zoom ">
@@ -44,13 +44,13 @@ Join Airblack?</div>
                   </div>
                 <div className="features-text">Do-it-together, live on zoom</div>
               </div>
-              <div className="fstar">
+              <div className="zoom">
               <div className="icons">
               <IoStar className='icon'/>
               </div>
-                <div className="features-text">4.8 /5 Rated Classes</div>
+                <div className="features-text">4.8 /5 <br />Rated Classes</div>
               </div>
-              <div className="member">
+              <div className="zoom">
               <div className="icons">
               <IoPeople className='icon'/>
               </div>
@@ -66,7 +66,7 @@ Join Airblack?</div>
         <img src={img11} alt="Image 11" className="w-1/2 h-full object-cover" />
         <img src={img12} alt="Image 12" className="absolute right-[-25%] w-[50%] h-full object-cover" />
         {/* Overlay for logo and text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 p-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-80">
           <button className='apply-button'>Apply Now</button>
         </div>
       </div>
