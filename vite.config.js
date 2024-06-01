@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -5,10 +6,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
+    outDir: 'build',
     rollupOptions: {
       input: {
-        // Specify the entry JavaScript file for your application
-        main: 'src/main.jsx' // Adjust the path as needed
+        main: 'src/main.jsx' 
       }
     }
   }
