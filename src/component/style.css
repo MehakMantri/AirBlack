@@ -1,0 +1,17 @@
+.header-title {
+    font-family: 'FONTSPRING DEMO - Roca One Rg';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  /* styles.css */
+  .certification-program {
+    width: 166.16px;
+    height: 24.22px;
+    padding: 5.11px 11.08px;
+    gap: 7px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0;
+    background-color: #FFFFFF;
+  }
