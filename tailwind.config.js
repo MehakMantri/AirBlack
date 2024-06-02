@@ -8,9 +8,6 @@ module.exports = {
   },
   variants: {
     extend: {
-      fontFamily: {
-        proxima: ['Proxima Nova', 'sans-serif'],
-      },
     },
   },
   plugins: [],
