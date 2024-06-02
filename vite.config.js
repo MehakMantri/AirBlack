@@ -6,13 +6,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: 'public/index.html'
+      input: './public/index.html'
     }
   },
-  server: {
-    open: true,
-    fs: {
-      strict: false
-    }
-  }
+  base: '',
 });
