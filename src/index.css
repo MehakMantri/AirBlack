@@ -14,7 +14,13 @@
   line-height: 30px;
   text-align: left;
 }
+.logo{
+  width: 68.66px;
+height: 28.44px;
+gap: 0px;
+opacity: 0px;
 
+}
 .certification-program {
   background-color: #FFFFFF;
   color: #000;

@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from '../assets/logo.png';  // Uncomment and use the correct path to your logo
+import logo from '../assets/logo.png';  // Uncomment and use the correct path to your logo
 import img1 from '../assets/image1.png';
 import img2 from '../assets/image2.png';
 import img3 from '../assets/image3.png';
@@ -24,7 +24,7 @@ const MakeupCourse = () => {
         {/* Overlay for logo and text */}
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-80 p-4">
           <div className="logo mb-4 flex flex-col items-center">
-            <img src="" alt="logo" className="w-12 mx-auto" />
+            <img src={logo} alt="logo" className="w-12 mx-auto" />
             <p className="presents">PRESENTS</p>
           </div>
         </div>
